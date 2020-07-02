@@ -16197,7 +16197,7 @@ document.getElementById("artitalk_main").innerHTML = sting;
 
 var pos = "";
 var oss = "";
-$.ajaxSettings.async = false;
+$ .ajaxSettings.async = false;
 $(document).ready(function () {
     $.getJSON("https://api.ip.sb/geoip?callback=?",
         function (json) {
