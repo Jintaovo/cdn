@@ -1,0 +1,32 @@
+.cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
+                  background: linear-gradient(-45deg, #3A405A, #AEC5EB, #F9DEC9, #E9AFA3) 0% 0% / 400% 400%;
+                  animation: 15s ease 0s infinite normal none running gradientBG;
+                  color: #3E4348;
+                }
+                .cbp_tmtimeline>li .cbp_tmlabel {
+                  background: linear-gradient(-45deg, #3A405A, #AEC5EB, #F9DEC9, #E9AFA3) 0% 0% / 400% 400%;
+                  animation: 15s ease 0s infinite normal none running gradientBG;
+                  color: #3E4348;
+                }
+                .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
+                  border-right-color:  #AEC5EB
+                }
+                .cbp_tmtimeline>li .cbp_tmlabel:after {
+                  border-right-color:  #F9DEC9
+                }
+                .button {
+                  background: linear-gradient(-45deg, #3A405A, #AEC5EB, #F9DEC9, #E9AFA3) 0% 0% / 400% 400%;
+                  animation: 15s ease 0s infinite normal none running gradientBG;
+                  color: #3E4348;
+                }
+                @keyframes gradientBG {
+                    0% {
+                        background-position: 0% 50%;
+                    }
+                    50% {
+                        background-position: 100% 50%;
+                    }
+                    100% {
+                        background-position: 0% 50%;
+                    }
+                }
