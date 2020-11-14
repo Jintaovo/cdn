@@ -174,7 +174,7 @@
     white-space: nowrap;
   }
 }
-.rollbar {
+/* .rollbar {
   position: fixed;
   right: 0px;
   bottom: 20px;
@@ -249,7 +249,7 @@
   border-left: 4px solid #666;
   border-top: 4px solid rgba(0, 0, 0, 0);
   border-bottom: 4px solid rgba(0, 0, 0, 0);
-}
+} */
 #search {
   max-width: 717px;
   margin: 10px auto 10px;
