@@ -271,7 +271,11 @@ input#search-text:focus {
   border-color: #ffffff;
   box-shadow: 5px 6px 18px 1px #babfcf;
 }
-
+input#search-text:hover {
+  border-style: solid;
+  border-color: #ffffff;
+  box-shadow: 5px 6px 18px 1px #babfcf;
+}
 #search button {
   position: absolute;
   top: 0;
