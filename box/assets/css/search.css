@@ -266,6 +266,12 @@
   border-radius: 5px;
   background-color: #fff;
 }
+input#search-text:focus {
+  border-style: solid;
+  border-color: #ffffff;
+  box-shadow: 5px 6px 18px 1px #babfcf;
+}
+
 #search button {
   position: absolute;
   top: 0;
