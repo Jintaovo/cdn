@@ -263,7 +263,7 @@
   height: 50px;
   font-size: 1pc;
   border: 2px solid #e4ecf3;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #fff;
 }
 input#search-text:focus {
@@ -280,7 +280,7 @@ input#search-text:hover {
   position: absolute;
   top: 0;
   right: 0;
-  background: #1bc3fb;
+  background: white;
   border: 0;
   width: 70px;
   height: 36px;
@@ -289,14 +289,22 @@ input#search-text:hover {
   border-radius: 3px;
   outline: none;
 }
-#search button:hover {
-  background: #04a8df;
+#search button:hover{
+  background: white;
   cursor: pointer;
 }
+#search button:hover > .fa-search{
+  color: #49b1f5;
+}
+
 #search button i {
-  color: #fff;
+  color: gray;
   font-size: 18px;
 }
+/* #search button i:hover {
+  color: #49b1f5;
+  font-size: 18px;
+} */
 .search-group {
   display: none;
   padding-left: 75px;
