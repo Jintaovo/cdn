@@ -265,6 +265,7 @@
   border: 2px solid #e4ecf3;
   border-radius: 10px;
   background-color: #fff;
+  margin-top: 3px;
 }
 input#search-text:focus {
   border-style: solid;
@@ -284,7 +285,7 @@ input#search-text:hover {
   border: 0;
   width: 70px;
   height: 36px;
-  margin: 8px;
+  margin: 11px 8px;
   line-height: 36px;
   border-radius: 3px;
   outline: none;
