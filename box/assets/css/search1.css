@@ -265,7 +265,7 @@
   border: 2px solid #e4ecf3;
   border-radius: 10px;
   background-color: #fff;
-  margin-top: 3px;
+  /* margin-top: 3px; */
 }
 input#search-text:focus {
   border-style: solid;
@@ -285,7 +285,7 @@ input#search-text:hover {
   border: 0;
   width: 70px;
   height: 36px;
-  margin: 11px 8px;
+  margin: 8px;
   line-height: 36px;
   border-radius: 3px;
   outline: none;
@@ -439,12 +439,13 @@ input#search-text:hover {
   padding: 0 11px;
   font-size: 14px;
   line-height: 31px;
-  border-radius: 3px 3px 0 0;
+  border-radius: 8px 8px 0 0;
   cursor: pointer;
 }
 .search-type input:checked + label,
 .search-type input:hover + label {
   background-color: #fff;
+  box-shadow: 0px 1px 16px 0px #babfcf;
 }
 .set-check {
   margin-top: 3px;
