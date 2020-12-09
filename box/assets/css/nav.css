@@ -23,7 +23,7 @@
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    color: #49b1f5;
+    /* color: #49b1f5; */
 }
 .xe-comment-entry img {
     float: left;
