@@ -271,11 +271,13 @@ input#search-text:focus {
   border-style: solid;
   border-color: #ffffff;
   box-shadow: 5px 6px 18px 1px #babfcf;
+  transition: all 0.3s ease;
 }
 input#search-text:hover {
   border-style: solid;
   border-color: #ffffff;
   box-shadow: 5px 6px 18px 1px #babfcf;
+  transition: all 0.3s ease;
 }
 #search button {
   position: absolute;
@@ -446,6 +448,7 @@ input#search-text:hover {
 .search-type input:hover + label {
   background-color: #fff;
   box-shadow: 0px 1px 16px 0px #babfcf;
+  transition: all 0.3s ease;
 }
 .set-check {
   margin-top: 3px;
