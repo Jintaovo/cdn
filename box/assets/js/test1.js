@@ -1,8 +1,7 @@
 // Hide the element. Doing this here will prevent the elements from disappering if JS is disabled.
 $('.row > *').css({
-    'opacity': '.6',
-	'transform': 'translateY(' + 1.2 + 'em)',
-	// 'transion': '8s'
+    'opacity': '.8',
+	// 'transform': 'translateY(' + 2 + 'em)',
 });
 
 // Trigger fade in as window scrolls
@@ -18,7 +17,7 @@ $(window).on('scroll load', function() {
         } else {
             $(this).css({
                 'opacity': '0',
-                'transform': 'translateY(' + 2 + 'em)'
+                'transform': 'translateY(' + 2 + 'em)' ,
             });
         }
     });

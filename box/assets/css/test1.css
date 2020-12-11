@@ -1,6 +1,6 @@
 
 .row > * {
-    transition:ease all .66s;
+    transition:ease all 0.66s;
 }
 /* Offsets timing for groups of three. This must be adjusted if there are more than three element per row.*/
 .row  > *:nth-child(4n+1) {
