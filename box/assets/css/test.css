@@ -1,0 +1,15 @@
+
+.row > * {
+    transition:ease all .25s;
+}
+/* Offsets timing for groups of three. This must be adjusted if there are more than three element per row.*/
+
+.row  > *:nth-child(4n+2) {
+    transition-delay: .25s;
+}
+.row > *:nth-child(4n+3) {
+    transition-delay: .40s;
+}
+.row > *:nth-child(4n+4) {
+    transition-delay: .55s;
+}
