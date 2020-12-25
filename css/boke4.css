@@ -1,10 +1,10 @@
 #web_bg {
     /* 背景图像的地址（url括号里）  */
-    /* background: url(https://cdn.jsdelivr.net/gh/Jintaovo/cdn/img/bg4.jpg); */
+    background: url(https://cdn.jsdelivr.net/gh/Jintaovo/cdn/img/bgt.jpg);
     /* 背景图像不重复 */
     background-repeat: repeat;
     /* 背景图像大小 */
-    background-size: cover;
+    background-size: contain;
   }
   body {
     cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
