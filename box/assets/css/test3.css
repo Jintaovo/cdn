@@ -1,0 +1,14 @@
+
+  body {
+    /* cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur), */
+        default;
+}
+#page-body{
+  background: url(https://cdn.jsdelivr.net/gh/Jintaovo/cdn/img/bg6.png);
+      /* 背景图像的地址（url括号里）  */
+    
+    /* 背景图像不重复 */
+    background-repeat: repeat;
+    /* 背景图像大小 */
+    background-size: contain;
+}
