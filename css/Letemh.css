@@ -1,6 +1,6 @@
 
 /* 隐藏回到顶部按钮，替换为up酱 */
-
+/* 
 #go-up i {
     display: none;
     background-color: transparent !important;
@@ -14,9 +14,9 @@
     transform: translate(-70px, -80px) !important;
 }
 /*新版3.0.0以上添加up酱置顶ico图标上移问题*/
-.fas.fa-arrow-up {
+/* .fas.fa-arrow-up {
     line-height: 2;
-}
+} */ */
 /* 目录隐藏按钮颜色 */
 
 #toggle-sidebar {
@@ -85,7 +85,7 @@
 /* a标签默认颜色 */
 
 #article-container a {
-    color: #00c4b6;
+    color: #75c2ee;
     text-decoration: none;
 }
 
