@@ -2,7 +2,7 @@
 /* 隐藏回到顶部按钮，替换为up酱 */
 
 #go-up i {
-    /* display: none; */
+    display: none;
     background-color: transparent !important;
 }
 
