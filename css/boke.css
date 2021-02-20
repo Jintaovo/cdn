@@ -54,3 +54,17 @@ img {
     color: #fff;
     background-color: #49b1f5;
   }
+
+  /* 加载进度条 */
+
+.pace .pace-progress {
+  background: #ff7242; /*进度条颜色*/
+  height: 3px;
+}
+.pace .pace-progress-inner {
+  box-shadow: 0 0 10px #e0e4e9, 0 0 5px     #9ec4e7; /*阴影颜色*/
+}
+.pace .pace-activity {
+  border-top-color: #ffffff;    /*上边框颜色*/
+  border-left-color: #1E92FB;    /*左边框颜色*/
+}
