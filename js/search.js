@@ -92,7 +92,7 @@ document.writeln(
   '		<li><input hidden="" type="radio" name="type" id="type-yingxiangyinzhi" value="http://www.letpub.com.cn/index.php?page=journalapp&amp;view=search&amp;searchname=" data-placeholder="SCI查询"><label for="type-yingxiangyinzhi"><span style="color:#003daa">影响因子</span></label></li>		'
 );
 document.writeln(
-  '		<li><input hidden="" type="radio" name="type" id="type-iData" value="https://search.ehn3.com/search?keyword=" data-placeholder="知识检索"><label for="type-iData"><span style="color:#003daa">iData</span></label></li>		'
+  '		<li><input hidden="" type="radio" name="type" id="type-iData" value="https://search.cn-ki.net/search?keyword=" data-placeholder="知识检索"><label for="type-iData"><span style="color:#003daa">iData</span></label></li>		'
 );
 document.writeln("");
 document.writeln("      </ul>");
