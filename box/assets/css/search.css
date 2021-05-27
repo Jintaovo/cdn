@@ -265,18 +265,19 @@
   border: 2px solid #e4ecf3;
   border-radius: 10px;
   background-color: #fff;
+  box-shadow: 2px 2px 4px 0px #bfc3d3c9;
   /* margin-top: 3px; */
 }
 input#search-text:focus {
   border-style: solid;
   border-color: #ffffff;
-  box-shadow: 5px 6px 18px 1px #babfcf;
+  box-shadow: 6px 6px 18px 3px #babfcfa1;
   transition: all 0.3s ease;
 }
 input#search-text:hover {
   border-style: solid;
-  border-color: #ffffff;
-  box-shadow: 5px 6px 18px 1px #babfcf;
+  /* border-color: #ffffff; */
+  box-shadow: 6px 6px 18px 3px #babfcfa1;
   transition: all 0.3s ease;
 }
 #search button {
