@@ -448,7 +448,7 @@ input#search-text:hover {
 .search-type input:checked + label,
 .search-type input:hover + label {
   background-color: #fff;
-  box-shadow: 0px 1px 16px 0px #babfcf;
+  box-shadow: 1px 1px 5px 2px #bfc7d39e;
   transition: all 0.3s ease;
 }
 .set-check {
