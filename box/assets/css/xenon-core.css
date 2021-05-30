@@ -1202,7 +1202,8 @@ body {
     top: 0;
     bottom: 0;
     width: inherit;
-    overflow: hidden
+    overflow: hidden;
+    background-color: #24292e;
 }
 
 .page-body.right-sidebar .sidebar-menu.fixed .sidebar-menu-inner {
