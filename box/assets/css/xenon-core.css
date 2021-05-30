@@ -2284,12 +2284,10 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 .user-info-navbar {
     background-color: #fff;
     min-height: 0;
-    /* border: 0; */
     padding: 0;
     margin: -30px;
     margin-bottom: 25px;
     border: 2px solid #e4ecf3b3;
-    /* box-shadow: 2px 2px 4px 0px #bfc3d3c4; */
     box-shadow: 2px 2px 4px 0px #bfc3d3c4;
 }
 
