@@ -2289,7 +2289,8 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
     margin: -30px;
     margin-bottom: 25px;
     border: 2px solid #e4ecf3b3;
-    box-shadow: 2px 2px 4px 0px #bfc3d3c4;
+    /* box-shadow: 2px 2px 4px 0px #bfc3d3c4; */
+    box-shadow: 0px 1px 8px 2px #bfc3d30f;
 }
 
 .user-info-navbar .user-info-menu {
