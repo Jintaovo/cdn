@@ -927,7 +927,7 @@ body {
 	/** zzy 
     padding: 19px 45px;
 	*/
-	padding: 15px 25px;
+	padding: 11px 25px;
     border-bottom: 1px solid #313437
 }
 
@@ -1232,7 +1232,7 @@ body {
         /* position: relative */
     }
     .sidebar-menu.collapsed .logo-env {
-        padding: 28px 0
+        padding: 24px 0
     }
     .sidebar-menu.collapsed .logo-env .logo-collapsed {
         display: block;
@@ -2284,11 +2284,13 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 
 .user-info-navbar {
     background-color: #fff;
+    height: 80px;
+    overflow: hidden;
     min-height: 0;
     padding: 0;
     margin: -30px;
     margin-bottom: 25px;
-    border: 2px solid #e4ecf3b3;
+    border-bottom: 1px solid #e4ecf3b3;
     /* box-shadow: 2px 2px 4px 0px #bfc3d3c4; */
     box-shadow: 0px 1px 8px 2px #bfc3d30f;
 }
