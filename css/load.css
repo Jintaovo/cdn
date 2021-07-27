@@ -2,13 +2,13 @@
  /* 加载进度条 */
 
 .pace .pace-progress {
-  background: #fa9574; /*进度条颜色*/
+  background: linear-gradient(to right, #12c2e9,#c471ed,#f64f59);; /*进度条颜色*/
   height: 3px;
 }
 .pace .pace-progress-inner {
-  box-shadow: 0 0 10px #e9c9c1, 0 0 5px     #ecf1f5; /*阴影颜色*/
+  box-shadow: 0 0 10px #fd3a47, 0 0 5px #bc52f1; /*阴影颜色*/
 }
 .pace .pace-activity {
-  border-top-color: #ffffff;    /*上边框颜色*/
-  border-left-color: #1E92FB;    /*左边框颜色*/
+  border-top-color: #12c2e9;    /*上边框颜色*/
+  border-left-color: #c471ed;    /*左边框颜色*/
 }
