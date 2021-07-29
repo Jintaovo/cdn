@@ -82,9 +82,10 @@
   padding: 9pt 0;
   width: 20pc;
   color: #000;
-  background: #fff;
+  background: #ffffffe6;
   border-radius: 4px;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 6px 6px 18px 3px #babfcfa1;
+  transition: all 0.3s ease;
 }
 .s-type-list:before {
   position: absolute;
