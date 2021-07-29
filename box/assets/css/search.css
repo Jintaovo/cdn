@@ -83,7 +83,7 @@
   width: 20pc;
   color: #000;
   background: #ffffffe6;
-  border-radius: 4px;
+  border-radius: 13.56px;
   box-shadow: 6px 6px 18px 3px #babfcfa1;
   transition: all 0.3s ease;
 }
@@ -339,16 +339,7 @@ input#search-text:hover {
   height: 31px;
   width: 75px;
 }
-.s-type-list {
-  display: none;
-  position: absolute;
-  top: 31px;
-  padding: 9pt 0;
-  width: 20pc;
-  background: #fff;
-  border-radius: 13.56px;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
-}
+
 .s-type-list:before {
   position: absolute;
   top: -1pc;
