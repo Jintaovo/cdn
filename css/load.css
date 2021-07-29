@@ -4,9 +4,10 @@
 .pace .pace-progress {
   background: linear-gradient(to right, #12c2e9,#c471ed,#f64f59);; /*进度条颜色*/
   height: 3px;
+  border-radius: 1px;
 }
 .pace .pace-progress-inner {
-  box-shadow: 0 0 10px #fd3a47, 0 0 5px #bc52f1; /*阴影颜色*/
+  box-shadow: 0 0 10px #f0323f, 0 0 5px #9e23db; /*阴影颜色*/
 }
 .pace .pace-activity {
   border-top-color: #12c2e9;    /*上边框颜色*/
