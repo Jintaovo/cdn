@@ -927,7 +927,7 @@ body {
 	/** zzy 
     padding: 19px 45px;
 	*/
-	padding: 11px 25px;
+	padding: 8px 25px 0px;
     border-bottom: 1px solid #313437
 }
 
@@ -966,7 +966,7 @@ body {
 	**/
 	padding-left: 30px;
     padding-right: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 20px;
     list-style: none
 }
@@ -1234,7 +1234,7 @@ body {
         /* position: relative */
     }
     .sidebar-menu.collapsed .logo-env {
-        padding: 24px 0
+        padding: 17px 0
     }
     .sidebar-menu.collapsed .logo-env .logo-collapsed {
         display: block;
@@ -2285,8 +2285,8 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 }
 
 .user-info-navbar {
-    background-color: #fff;
-    height: 80px;
+    background-color: #fffffff0;
+    height: 66px;
     overflow: hidden;
     min-height: 0;
     padding: 0;
@@ -2294,7 +2294,10 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
     margin-bottom: 25px;
     border-bottom: 1px solid #e4ecf3b3;
     /* box-shadow: 2px 2px 4px 0px #bfc3d3c4; */
-    box-shadow: 0px 1px 8px 2px #bfc3d30f;
+    box-shadow: 0px 1px 6px 0px #bfc3d3ab;
+    position: sticky;
+    top: 0;
+    z-index: inherit;
 }
 
 .user-info-navbar .user-info-menu {
@@ -2352,7 +2355,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 .user-info-navbar .user-info-menu>li>a {
     position: relative;
     display: block;
-    padding: 30px 20px;
+    padding: 25px 20px;
     color: #979898;
     border-bottom: 1px solid #fff;
     top: 1px;
