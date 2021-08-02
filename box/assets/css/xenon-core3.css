@@ -2285,7 +2285,9 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 }
 
 .user-info-navbar {
-    background-color: #ffffffeb;
+    /* background-color: #ffffffeb; */
+    background-color: rgb(255 255 255 / 36%);
+    backdrop-filter: blur(20px);
     height: 66px;
     overflow: hidden;
     min-height: 0;
@@ -2328,7 +2330,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
     position: relative;
     margin: 0;
     padding: 0;
-    border: 1px solid #fff;
+    border: 1px solid rgba(255, 255, 255, 0);
     border-top: 0;
     border-bottom: 0;
     display: block;
