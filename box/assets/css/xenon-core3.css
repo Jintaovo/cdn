@@ -2286,8 +2286,8 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 
 .user-info-navbar {
     /* background-color: #ffffffeb; */
-    background-color: rgb(255 255 255 / 20%);
-    backdrop-filter: blur(18px);
+    background-color: rgb(255 255 255 / 0%);
+    backdrop-filter: blur(16px);
     height: 66px;
     overflow: hidden;
     min-height: 0;
