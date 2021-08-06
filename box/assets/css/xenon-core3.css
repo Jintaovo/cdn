@@ -2296,7 +2296,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
     margin-bottom: 25px;
     border-bottom: 1px solid #e4ecf3b3;
     /* box-shadow: 2px 2px 4px 0px #bfc3d3c4; */
-    box-shadow: 0 1px 6px 0 #dbdbdd59;
+    box-shadow: 1px 2px 6px 1px #dbdbdd8f;
     position: sticky;
     top: 0;
     z-index: inherit;
