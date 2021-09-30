@@ -1239,7 +1239,7 @@ a.logo-expanded {
         /* position: relative */
     }
     .sidebar-menu.collapsed .logo-env {
-        padding: 13px 0
+        padding: 10px 0
     }
     .sidebar-menu.collapsed .logo-env .logo-collapsed {
         display: block;
