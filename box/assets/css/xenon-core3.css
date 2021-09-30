@@ -932,7 +932,12 @@ body {
 }
 
 .sidebar-menu .logo-env .logo {
-    float: left
+    float: left;
+    padding-bottom: 5px;
+}
+a.logo-expanded {
+    text-shadow: -1px -1px white, -1px -1px #333;
+    font-size: 20px;
 }
 
 .sidebar-menu .logo-env .logo .logo-collapsed {
@@ -1234,7 +1239,7 @@ body {
         /* position: relative */
     }
     .sidebar-menu.collapsed .logo-env {
-        padding: 17px 0
+        padding: 13px 0
     }
     .sidebar-menu.collapsed .logo-env .logo-collapsed {
         display: block;
