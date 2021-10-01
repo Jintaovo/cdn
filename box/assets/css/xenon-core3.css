@@ -934,6 +934,7 @@ body {
 .sidebar-menu .logo-env .logo {
     float: left;
     padding-bottom: 5px;
+    width: 150px;
 }
 a.logo-expanded {
     text-shadow: -1px -1px white, -1px -1px #333;
@@ -1239,11 +1240,12 @@ a.logo-expanded {
         /* position: relative */
     }
     .sidebar-menu.collapsed .logo-env {
-        padding: 10px 0
+        padding: 13px 0 7px;
     }
     .sidebar-menu.collapsed .logo-env .logo-collapsed {
         display: block;
-        text-align: center
+        text-align: center;
+        width: 80px;
     }
     .sidebar-menu.collapsed .logo-env .logo-collapsed img {
         display: inline-block
@@ -4009,7 +4011,7 @@ body.chat-open #chat {
         display: none
     }
     .page-container .main-content .navbar.user-info-navbar.mobile-is-visible {
-        display: block
+        /* display: block */
     }
     .page-container .main-content .navbar.user-info-navbar .user-info-menu>li {
         min-height: 0!important
