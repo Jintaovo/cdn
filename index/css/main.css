@@ -133,6 +133,11 @@ span{
   box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width: 767px){
+.profile-card header {
+    padding-top:60px;
+}}
+
 .profile-card .profile-bio {
   width: 175px;
   height: 180px;
@@ -152,7 +157,7 @@ span{
   display: inline-block;
   float: right;
   margin: 0px;
-  padding: 30px 20px;
+  padding: 20px 20px;
   margin-top: 50px;
   text-align: center;
   opacity: 0;
@@ -529,7 +534,7 @@ a.btn:hover {
   .profile-card header {
     width: auto;
     height: auto;
-    padding: 30px 20px;
+    /* padding: 30px 20px; */
     display: block;
     float: none;
     border-right: none;
@@ -537,7 +542,7 @@ a.btn:hover {
   .profile-card .profile-bio {
     width: auto;
     height: auto;
-    padding: 15px 20px 30px 20px;
+    padding: 20px 20px 30px 20px;
     display: block;
     float: none;
   }
