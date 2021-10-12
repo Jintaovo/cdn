@@ -56,7 +56,28 @@ body {
       </h1>
       <!-- and role or location -->
       <h2>
-      欲说还休，却道天凉好个秋。
+          <!-- 网页使用示例: -->
+						<p id="hitokoto">   ฅʕ•̫͡•ʔฅ ᑋᵉᑊᑊᵒ   </p>
+						<!-- 以下写法，选取一种即可 -->
+						
+						<!-- 现代写法，推荐 -->
+						<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+						<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+						<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+						<!--End-->
+						<script>
+						  fetch('https://v1.hitokoto.cn/?c=i')
+							.then(function (res){
+							  return res.json();
+							})
+							.then(function (data) {
+							  var hitokoto = document.getElementById('hitokoto');
+							  hitokoto.innerText = data.hitokoto; 
+							})
+							.catch(function (err) {
+							  console.error(err);
+							})
+						</script>
       </h2>
     </header>
     <!-- bit of a bio; who are you? -->
