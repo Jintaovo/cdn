@@ -11,7 +11,7 @@ html {
 .profile-card{
     /* background: linear-gradient(to right, #ec6ead61, #3494e661); */
     /* padding: 8% 2% 0 2%; */
-    background: rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.50);
     min-height: -webkit-fill-available;
     padding: 2%;
     margin: 4% 2%;
