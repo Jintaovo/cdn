@@ -21,4 +21,4 @@ html {
     border-radius: 4px;
     box-shadow: 0px 3px 6px rgb(0 0 0 / 16%), 0px 3px 6px rgb(0 0 0 / 23%);
 }
-img {border: none; max-width: 100%;}
+* {border: none; max-width: 100%;}
