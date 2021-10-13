@@ -1,24 +1,36 @@
 #artitalk_main #lazy {
     background: #ffffff3d;
-    /* bottom: 0; */
-    height: 60%;
-    /* left: 0; */
-    position: sticky;
-    /* right: 0; */
-    /* top: 20px; */
-    /* z-index: 9999; */
+    height: -webkit-fill-available;
+    position: fixed;
 }
 html {
-    max-width: 100%;
+    /* max-width: 100%; */
+    /* height: -webkit-fill-available; */
     background: linear-gradient(to right, #ec6ead61, #3494e661);
 }
 .profile-card{
     /* background: linear-gradient(to right, #ec6ead61, #3494e661); */
     /* padding: 8% 2% 0 2%; */
     background: rgba(255, 255, 255, 0.60);
+    min-height: -webkit-fill-available;
     padding: 2%;
-    margin: 8% 5%;
+    margin: 4% 2%;
     border-radius: 4px;
     box-shadow: 0px 3px 6px rgb(0 0 0 / 16%), 0px 3px 6px rgb(0 0 0 / 23%);
 }
 * {border: none; max-width: 100%;}
+#artitalk_main .artitalk_loading_text {
+    font-family: Helvetica, " Helvetica Neue ", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: 0px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 11px;
+    color: #a0a0a0;
+    width: 200px;
+}
+#artitalk_main #shuoshuo_content {
+    padding: 10px;
+    min-height: 520px;
+}
