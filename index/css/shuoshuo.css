@@ -18,7 +18,7 @@ html {
     border-radius: 4px;
     box-shadow: 0px 3px 6px rgb(0 0 0 / 16%), 0px 3px 6px rgb(0 0 0 / 23%);
 }
-* {border: none; max-width: 100%;}
+* { max-width: 100%;}
 #artitalk_main .artitalk_loading_text {
     font-family: Helvetica, " Helvetica Neue ", sans-serif;
     letter-spacing: 1px;
@@ -34,3 +34,25 @@ html {
     padding: 10px;
     min-height: 520px;
 }
+/*
+   Responsive Video Embed
+   ========================================================================== */
+
+   .responsive-video-container {
+    position: relative;
+    margin-bottom: 1em;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  
+    iframe,
+    object,
+    embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
