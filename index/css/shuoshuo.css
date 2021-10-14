@@ -25,18 +25,7 @@ html {
     border-radius: 4px;
     box-shadow: 0px 3px 6px rgb(0 0 0 / 16%), 0px 3px 6px rgb(0 0 0 / 23%);
 }
-/* * { max-width: 100%;} */
-#artitalk_main .artitalk_loading_text {
-    font-family: Helvetica, " Helvetica Neue ", sans-serif;
-    letter-spacing: 1px;
-    text-align: center;
-    margin-left: 0px;
-    font-weight: bold;
-    margin-top: 20px;
-    font-size: 11px;
-    color: #a0a0a0;
-    width: 200px;
-}
+
 #artitalk_main #shuoshuo_content {
     padding: 10px;
     min-height: 520px;
