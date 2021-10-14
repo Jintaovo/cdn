@@ -3,6 +3,13 @@
     height: -webkit-fill-available;
     position: fixed;
 }
+#artitalk_main .cbp_tmtimeline>li img{
+    max-height: 300px;
+    max-width: 100%;
+}
+#artitalk_main .cbp_tmtimeline>li iframe{
+    max-width: 100%;
+}
 html {
     /* max-width: 100%; */
     /* height: -webkit-fill-available; */
@@ -18,7 +25,7 @@ html {
     border-radius: 4px;
     box-shadow: 0px 3px 6px rgb(0 0 0 / 16%), 0px 3px 6px rgb(0 0 0 / 23%);
 }
-* { max-width: 100%;}
+/* * { max-width: 100%;} */
 #artitalk_main .artitalk_loading_text {
     font-family: Helvetica, " Helvetica Neue ", sans-serif;
     letter-spacing: 1px;
