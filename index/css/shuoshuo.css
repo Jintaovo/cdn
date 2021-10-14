@@ -15,6 +15,10 @@
 #artitalk_main .cbp_tmtimeline>li iframe{
     max-width: 100%;
 }
+#artitalk_main #preview img,iframe{
+    max-height: 300px;
+    max-width: 100%;
+}
 html {
     /* max-width: 100%; */
     /* height: -webkit-fill-available; */
