@@ -15,6 +15,9 @@
 #artitalk_main .cbp_tmtimeline>li iframe{
     max-width: 100%;
 }
+#artitalk_main #preview {
+    padding: 6px 0px;
+}
 #artitalk_main #preview img{
     max-height: 300px;
     max-width: 100%;
