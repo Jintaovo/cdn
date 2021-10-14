@@ -1,3 +1,8 @@
+
+#artitalk_main .shuoshuo_text {
+    padding: 0;
+    line-height: 46px;
+}
 #artitalk_main #lazy {
     background: #ffffff3d;
     height: -webkit-fill-available;
