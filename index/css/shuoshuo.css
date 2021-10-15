@@ -43,9 +43,23 @@ html {
 }
 
 #artitalk_main #shuoshuo_content {
-    padding: 10px;
-    min-height: 421px;
+    padding: 40px 10px 10px;
+    min-height: 380px;
 }
+
+@media (max-width:1000px){
+#artitalk_main #shuoshuo_content {
+    min-height: 520px;
+    /* background: rgba(255, 255, 255, 0.90); */
+    animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
+}}
+@media (max-width:1000px){
+    .profile-card {
+        margin: 30px 0px;
+        animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
+    }}
+
+
 /*
    Responsive Video Embed
    ========================================================================== */
