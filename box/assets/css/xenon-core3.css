@@ -1294,7 +1294,7 @@ a.logo-expanded {
         background: #2c2e2f;
         width: 250px;
         top: 0;
-        left: 100%;
+        left: 100%; 
         text-align: left
     }
     .page-body.right-sidebar .sidebar-menu.collapsed .main-menu>li>ul {
