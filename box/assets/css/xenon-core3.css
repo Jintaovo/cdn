@@ -971,8 +971,8 @@ a.logo-expanded {
     padding-left: 40px;
     padding-right: 40px;
 	**/
-	padding-left: 30px;
-    padding-right: 30px;
+	/*padding-left: 30px;
+    padding-right: 30px;*/
     margin-top: 20px;
     margin-bottom: 20px;
     list-style: none
@@ -989,9 +989,10 @@ a.logo-expanded {
     color: #979898;
     text-decoration: none;
     display: block;
-    padding: 13px 5px;
-    border-bottom: 1px solid #313437;
+    padding: 13px 25px;
+    /*border-bottom: 1px solid #313437;*/
     background-color: #24292e;
+    font-size: 13.5px;
 
 }
 
@@ -1001,7 +1002,8 @@ a.logo-expanded {
 }
 
 .sidebar-menu .main-menu a>i+span {
-    padding-right: 10px
+    padding-right: 10px;
+    letter-spacing: 1px;
 }
 
 .sidebar-menu .main-menu a>span {
@@ -1018,11 +1020,14 @@ a.logo-expanded {
 }
 
 .sidebar-menu .main-menu a:hover {
-    color: #fff
+    color: #fff;
+    background-color: #00000026;
+
 }
 
 .sidebar-menu .main-menu li.active>a {
-    color: #fff
+    color: #fff;
+    background-color: #0000002b;
 }
 
 .sidebar-menu .main-menu li.has-sub>a:before {
@@ -1181,7 +1186,11 @@ a.logo-expanded {
 }
 
 .sidebar-menu .main-menu ul li a {
-    padding-left: 35px
+    padding-left: 53px
+}
+
+span.title {
+    padding-left: 4px;
 }
 
 .sidebar-menu .main-menu ul li ul li a {
@@ -1242,6 +1251,7 @@ a.logo-expanded {
     }
     .sidebar-menu.collapsed .logo-env {
         padding: 13px 0 7px;
+        overflow: hidden;
     }
     .sidebar-menu.collapsed .logo-env .logo-collapsed {
         display: block;
