@@ -82,10 +82,11 @@
   padding: 9pt 0;
   width: 20pc;
   color: #000;
-  background: #ffffffe6;
+  background: #ffffff30;
   border-radius: 13.56px;
   box-shadow: 6px 6px 18px 3px #babfcfa1;
   transition: all 0.3s ease;
+  backdrop-filter: blur(25px);
 }
 .s-type-list:before {
   position: absolute;

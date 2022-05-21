@@ -25,6 +25,10 @@
     transition: all 0.3s ease;
     /* color: #49b1f5; */
 }
+.box2:hover a {
+    color: #f1404b;
+}
+
 .xe-comment-entry img {
     float: left;
     display: block;
