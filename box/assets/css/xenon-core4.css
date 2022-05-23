@@ -803,7 +803,7 @@ body {
     padding-bottom: 0;
     vertical-align: top;
     word-break: break-word;
-    padding-bottom: 60px;
+    /*padding-bottom: 60px;*/
     width: 100%;
     -webkit-transition: opacity 100ms ease-in-out;
     -moz-transition: opacity 100ms ease-in-out;
@@ -2293,7 +2293,7 @@ footer.main-footer.footer-type-2 .go-up a:hover {
 
 footer.main-footer.fixed {
     position: fixed;
-    background-color: rgb(255 255 255 / 10%);
+    background-color: rgb(255 255 255 / 50%);
     backdrop-filter: blur(25px);
     left: 0px;
     right: 0;
@@ -4090,7 +4090,7 @@ body.chat-open #chat {
     background: #fff;
     padding: 20px 30px;
     border: 0;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none
