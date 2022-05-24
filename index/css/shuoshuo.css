@@ -8,6 +8,9 @@
     height: -webkit-fill-available;
     position: fixed;
 }
+#operare_artitalk .c1{
+        z-index: 999;
+}
 #artitalk_main .cbp_tmtimeline>li img{
     max-height: 300px;
     max-width: 100%;
@@ -28,7 +31,7 @@
 html {
     /* max-width: 100%; */
     /* height: -webkit-fill-available; */
-    background: linear-gradient(to right, #ec6ead61, #3494e661);
+    /*background: linear-gradient(to right, #ec6ead61, #3494e661);*/
 }
 .profile-card{
     /* background: linear-gradient(to right, #ec6ead61, #3494e661); */
